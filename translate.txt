@@ -1,0 +1,2 @@
+You're right, textblob-es doesn't exist as a separate package. The Spanish language support is already included in the main `textblob` package. So you don't need to install anything extra.
+As for the`AttributeError, it's likely because the translation service cannot discern the source language. Try updating with this code:
